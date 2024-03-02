@@ -165,4 +165,9 @@
 .accordion__text {
   margin: 0;
 }
+
+.menu {
+  text-align: left;
+}
+
 /* https://sposai-trivia.com/wix-accordion/#index_id0 */
