@@ -170,7 +170,13 @@
   font-weight: bold;
 }
 
+.accordion__text_left {
+  margin: 0;
+  text-align: left;
+}
+
 .menu {
+  margin: 0;
   display: block;
   text-align: left;
 }
