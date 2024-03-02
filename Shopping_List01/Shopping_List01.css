@@ -167,6 +167,7 @@
 }
 
 .menu {
+  display: block;
   text-align: left;
 }
 
