@@ -188,5 +188,11 @@
   text-align: left;
 }
 
+<style>
+.example img{
+    max-width: 100%;
+    height: auto;
+}
+
 
 /* https://sposai-trivia.com/wix-accordion/#index_id0 */
