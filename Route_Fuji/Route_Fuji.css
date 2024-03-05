@@ -256,14 +256,64 @@
 
 
 
+.accordion_sub2 {
+  margin: 2em 0;
+}
 
+.accordion_sub2__summary {
+  display: block;
+  background: #ffc0cb;
+  /* 見出しの背景色 */
+  font-weight: bold;
+  position: relative;
+  list-style: none;
+  /* 矢印を消す */
+  cursor: pointer;
+  padding: 3px 38px 3px 10px;
+}
 
+.accordion_sub2__summary::-webkit-details-marker {
+  display: none;
+}
 
+.accordion_sub2__summary::after {
+  content: "+";
+  font-size: 1.4em;
+  /* 記号のサイズ */
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
+.accordion_sub2[open] .accordion_sub2__summary::after {
+  content: "−";
+}
 
+.accordion_sub2__detail {
+  padding: 0px 10px;
+  margin: 0;
+}
 
+.accordion_sub2__text {
+  margin: 0;
+}
 
+.accordion_sub2__text_menu {
+  padding: 4px 10px;
+  margin: 0 0 0 6px;
+}
 
+.accordion_sub2__text_bold {
+  margin: 0;
+  font-weight: bold;
+}
+
+.accordion_sub2__text_left {
+  margin: 0;
+  text-align: left;
+  line-height: 10px;
+}
 
 
 
